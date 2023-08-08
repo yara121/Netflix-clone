@@ -5,10 +5,6 @@ export const Container = styled.div`
   border-bottom: 8px solid #222;
 `
 
-export const Frame = styled.div`
-  margin-bottom: 40px;
-`
-
 export const Inner = styled.div`
   display: flex;
   padding: 70px 45px;
@@ -34,9 +30,9 @@ export const Item = styled.div`
   color: white;
   margin: auto;
   margin-bottom: 10px;
-  max-width: 728px;
+  max-width: 670px;
   width: 100%;
-
+  //padding: 0.8em 1.2em 0.8em 1.2em;
   &:first-of-type {
     margin-top: 3em;
   }
@@ -76,6 +72,7 @@ export const Body = styled.div`
   font-size: 26px;
   font-weight: normal;
   line-height: normal;
+  padding: 0.8em 1.2em 0.8em 1.2em;
   background: #303030;
   white-space: pre-wrap;
   user-select: none;
