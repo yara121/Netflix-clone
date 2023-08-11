@@ -4,7 +4,6 @@ import { HeaderContainer } from "../containers/header"
 import { JumbotronContainer } from "../containers/jumbotron"
 import { FooterContainer } from "../containers/footer"
 import { FaqsContainer } from "../containers/faqs"
-import { Feature } from "../components/header/styles/header"
 
 export default function Home() {
   return (
