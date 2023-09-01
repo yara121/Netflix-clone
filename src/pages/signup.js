@@ -6,15 +6,16 @@ import { HeaderContainer } from "../containers/header"
 import { FooterContainer } from "../containers/footer"
 import * as ROUTES from "../constants/routes"
 
-export default function Signup() {
+export default function SignUp() {
   const history = useHistory()
   const { firebase } = useContext(FirebaseContext)
   const [firstName, setFirstName] = useState()
   const [emailAddress, setEmailAddress] = useState()
   const [password, setPassword] = useState()
-  const [error, setError] = useState()
+  const [error, setError] = useState("")
 
-  const isInvalid = firstName === "" || password === "" || emailAddress === ""
+  const isInvalid =
+    firstName === "" || password === "" || emailAddress === "" || error === ""
 
   const handleSignUp = (event) => {
     event.preventDefault()
@@ -28,6 +29,7 @@ export default function Signup() {
             displayName: firstName,
             photoURL: Math.floor(Math.random() * 5) + 1,
           })
+
           .then(() => {
             history.push(ROUTES.BROWSE)
           })
@@ -44,7 +46,7 @@ export default function Signup() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign Up</Form.Title>
-          {error && <Form.error>{error}</Form.error>}
+          {error && <Form.error data-testid='error'>{error}</Form.error>}
 
           <Form.Base onSubmit={handleSignUp} method='POST'>
             <Form.Input
