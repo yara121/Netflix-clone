@@ -5,7 +5,7 @@ import { Loading } from "../../components"
 describe("<Loading /> ", () => {
   it("renders the <Loading /> component", () => {
     const { container, getByTestId } = render(
-      <Loading src='/images/karl.png' data-testid='loading' />
+      <Loading src='/Netflix/images/karl.png' data-testid='loading' />
     )
     expect(getByTestId("loading")).toBeTruthy()
     expect(getByTestId("loading-picture")).toBeTruthy()

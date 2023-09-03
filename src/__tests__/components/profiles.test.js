@@ -10,7 +10,7 @@ describe("<Profiles />", () => {
         <Profiles.List>
           <Profiles.User onClick={() => {}}>
             <Profiles.Picture
-              src='/images.karl.png'
+              src='/Netflix/images.karl.png'
               data-testid='profile-picture'
             />
 
@@ -32,7 +32,7 @@ describe("<Profiles />", () => {
         <Profiles.List>
           <Profiles.User onClick={() => {}}>
             <Profiles.Picture
-              src='/images/karl.png'
+              src='/Netflix/images/karl.png'
               data-testid='profile-picture-misc'
             />
 

@@ -49,7 +49,7 @@ describe("<Card />", () => {
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item}>
                   <Card.Image
-                    src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`}
+                    src={`/Netflix/images/${category}/${item.genre}/${item.slug}/small.jpg`}
                   />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
@@ -92,7 +92,7 @@ describe("<Card />", () => {
                   data-testid={`${item.slug}-item-feature`}
                 >
                   <Card.Image
-                    src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`}
+                    src={`/Netflix/images/${category}/${item.genre}/${item.slug}/small.jpg`}
                   />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>

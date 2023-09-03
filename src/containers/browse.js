@@ -36,7 +36,7 @@ export function BrowseContainer({ slides }) {
   return profile.displayName ? (
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
-      <Header src='joker1' dontShowOnSmallViewPort>
+      <Header src='/joker1' dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt='Netflix' />
@@ -94,7 +94,7 @@ export function BrowseContainer({ slides }) {
               {slideItem.data.map((item) => (
                 <Card.Item key={item.docId} item={item}>
                   <Card.Image
-                    src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`}
+                    src={`/Netflix/images/${category}/${item.genre}/${item.slug}/small.jpg`}
                   />
                   <Card.Meta>
                     <Card.SubTitle>{item.title}</Card.SubTitle>
@@ -106,7 +106,7 @@ export function BrowseContainer({ slides }) {
             <Card.Feature category={category}>
               <Player>
                 <Player.Button />
-                <Player.Video src='/videos/bunny.mp4' />
+                <Player.Video src='/Netflix/videos/bunny.mp4' />
               </Player>
             </Card.Feature>
           </Card>

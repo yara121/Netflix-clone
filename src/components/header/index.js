@@ -45,7 +45,7 @@ Header.Search = function HeaderSearch({
         onClick={() => setSearchActive((searchActive) => !searchActive)}
         data-testid='search-click'
       >
-        <img src='/images/icons/search.png' alt='Search' />
+        <img src='/Netflix/images/icons/search.png' alt='Search' />
       </SearchIcon>
       <SearchInput
         value={searchTerm}
@@ -83,7 +83,7 @@ Header.Profile = function HeaderProfile({ children, ...restProps }) {
 }
 
 Header.Picture = function HeaderPicture({ src, ...restProps }) {
-  return <Picture {...restProps} src={`/images/users/${src}.png `} />
+  return <Picture {...restProps} src={`/Netflix/images/users/${src}.png `} />
 }
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
