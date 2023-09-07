@@ -22,7 +22,7 @@ describe("<Header />", () => {
     const { container, getByText, queryByTestId } = render(
       <Header bg={false}>
         <Header.Frame>
-          <Header.Logo src='/Netflix/logo.svg' alt='Netflix' />
+          <Header.Logo src='/Netflix-clone/logo.svg' alt='Netflix' />
           <Header.ButtonLink>Sign In</Header.ButtonLink>
           <Header.TextLink active='false'>Hello I am a link!</Header.TextLink>
         </Header.Frame>
@@ -34,7 +34,7 @@ describe("<Header />", () => {
   })
   it("renders the full <Header /> with a background", () => {
     const { container, getByText, getByTestId } = render(
-      <Header src='/Netflix/joker1' dontShowOnSmallViewPort>
+      <Header src='/Netflix-clone/joker1' dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
             <Header.Logo to='/images/logo.svg' alt='Netflix' />
@@ -48,10 +48,10 @@ describe("<Header />", () => {
           <Header.Group>
             <Header.Search searchTerm='Joker' setSearchTerm={() => {}} />
             <Header.Profile>
-              <Header.Picture src='/Netflix/images/karl.png' />
+              <Header.Picture src='/Netflix-clone/images/karl.png' />
               <Header.Dropdown>
                 <Header.Group>
-                  <Header.Picture src='/Netflix/images/karl.png' />
+                  <Header.Picture src='/Netflix-clone/images/karl.png' />
                   <Header.TextLink>Karl Hadwen</Header.TextLink>
                 </Header.Group>
                 <Header.Group>

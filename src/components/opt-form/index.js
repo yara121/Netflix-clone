@@ -13,7 +13,7 @@ OptForm.Button = function OptFormButton({ children, ...restProps }) {
   return (
     <Button {...restProps}>
       {children}{" "}
-      <img src='Netflix/images/icons/chevron-right.png' alt='Try Now ' />
+      <img src='Netflix-clone/images/icons/chevron-right.png' alt='Try Now ' />
     </Button>
   )
 }
