@@ -11,18 +11,18 @@ export default function Home() {
       <HeaderContainer>
         <Feature>
           <Feature.Title>
-            Unlimited films, TV programmes and more.
+            Lorem ipsum dolor sit amet, consectetur.
           </Feature.Title>
           <Feature.SubTitle>
-            Watch anywhere. Cancel at any time.
+            Vestibulum rhoncus. venenatis dui at bibendum.
           </Feature.SubTitle>
           <OptForm>
             <OptForm.Input placeholder='Email address' />
             <OptForm.Button>Try it now</OptForm.Button>
             <OptForm.Break />
             <OptForm.Text>
-              Ready to watch? Enter your email to create or restart your
-              membership.
+              Mauris consequat magna metus, nec imperdiet quam porta in.
+              Praesent posuere.
             </OptForm.Text>
           </OptForm>
         </Feature>
