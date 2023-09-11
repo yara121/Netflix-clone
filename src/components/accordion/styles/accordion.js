@@ -2,7 +2,7 @@ import styled from "styled-components/macro"
 
 export const Container = styled.div`
   display: flex;
-  border-bottom: 8px solid #222;
+  border-bottom: 8px solid #2b2d42;
 `
 
 export const Frame = styled.div`
@@ -52,7 +52,7 @@ export const Header = styled.div`
   margin-bottom: 1px;
   font-size: 26px;
   font-weight: normal;
-  background: #303030;
+  background: ##2b2d42;
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
@@ -76,7 +76,7 @@ export const Body = styled.div`
   font-size: 26px;
   font-weight: normal;
   line-height: normal;
-  background: #303030;
+  background: ##2b2d42;
   white-space: pre-wrap;
   user-select: none;
   overflow: hidden;
