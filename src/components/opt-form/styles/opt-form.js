@@ -63,7 +63,7 @@ export const Button = styled.button`
 
 export const Text = styled.p`
   font-size: 19.2px;
-  color: white;
+  color: #2b2d42;
   text-align: center;
 
   @media (max-width: 600px) {

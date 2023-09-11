@@ -51,9 +51,9 @@ export const Image = styled.img`
 
 export const Item = styled.div`
   display: flex;
-  border-bottom: 8px solid #3d4056;
+  border-bottom: 8px solid #dae6ea;
   padding: 50px 5%;
-  color: white;
+  color: #2b2d42;
   overflow: hidden;
 `
 

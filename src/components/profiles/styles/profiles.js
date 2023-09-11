@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   width: 100%;
-  color: #fff;
+  color: #2b2d42;
   font-size: 48px;
   text-align: center;
   font-weight: 500;
@@ -31,7 +31,7 @@ export const Name = styled.p`
 
   &:hover {
     font-weight: bold;
-    color: #e5e5e5;
+    color: #2b2d42;
   }
 `
 
